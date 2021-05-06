@@ -19,15 +19,13 @@ const Login = () => {
 
 export default Login;
 
-const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-`;
+const Container = styled.div``;
 const LoginContainer = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 `;
 const Logo = styled.img`
   margin-bottom: 50px;
